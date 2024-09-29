@@ -26,28 +26,83 @@ header {
 
 }
 
-.header_nav_ul_li{
+.header_nav_ul_li {
     display: inline-block;
-    
+
 }
-.header_nav_ul_li_a{
+
+.header_nav_ul_li_a {
     color: white
 }
+
 .header_nav_ul_li_middle {
     margin: 46px 80px 44px;
     vertical-align: middle;
     color: white
 }
+
 /* section */
-
-section{
-    background-color: #D4F3F0;
+.section_main {
     width: 1440px;
-     height: 640px;
-margin: auto;}
-
-.section_cover{
-   display: inline-block;
+    height: 640px;
+    background-color: #D4F3F0;
     margin: auto;
-    padding: 80px 120px;
+    padding: 80px 130px;
 }
+
+.title_section {
+    display: inline-block;
+    font-size: 32px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    color: #06686E;
+    vertical-align: top;
+    margin-left: 120px;
+}
+
+.text_section {
+    font-size: 18px;
+    width: 450px;
+    text-align: left;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 32px;
+    color: #06686E;
+    ;
+}
+
+button {
+    width: 112px;
+    height: 46px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2A9D8F;
+    ;
+    margin-top: 60px;
+}
+
+.first_article{
+    width: 1180px;
+    /* background-color: aqua; */
+    margin: 80px auto;
+}
+   .article_title{
+    height: 48px;
+    font-size: 48px;
+     width: 309px; 
+ margin: 80px auto;
+ color:  #06686E;
+ font-family: "Kanit", sans-serif;
+ }
+ .article_text{
+     font-size: 24px;
+     width: 1180px;
+     height: 216px;
+    text-align:justify;
+     color: #06686E;
+     font-family: "Kanit", sans-serif;
+     font-weight: 100;
+     font-style: normal
+    }
+   
