@@ -82,27 +82,58 @@ button {
     margin-top: 60px;
 }
 
-.first_article{
+.first_article {
     width: 1180px;
     /* background-color: aqua; */
     margin: 80px auto;
 }
-   .article_title{
+
+.article_title {
     height: 48px;
     font-size: 48px;
-     width: 309px; 
- margin: 80px auto;
- color:  #06686E;
- font-family: "Kanit", sans-serif;
- }
- .article_text{
-     font-size: 24px;
-     width: 1180px;
-     height: 216px;
-    text-align:justify;
-     color: #06686E;
-     font-family: "Kanit", sans-serif;
-     font-weight: 100;
-     font-style: normal
-    }
-   
+    width: 309px;
+    margin: 80px auto;
+    color: #06686E;
+    font-family: "Kanit", sans-serif;
+}
+
+.article_text {
+    font-size: 24px;
+    width: 1180px;
+    height: 216px;
+    text-align: justify;
+    color: #06686E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal
+}
+footer{
+    background-color: #06686E;
+    width: 1440px;
+    height: 175px;
+    margin: auto;
+}
+ 
+.footer_title{ 
+    color: white;
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+.footer_nav{
+    display: inline-block;
+    width: 168px;
+    text-align: center;
+margin-left: 620px;
+}
+.footer_nav_ul{
+    display: inline-block;
+
+}
+.footer_nav_ul_li{
+    display: inline-block;
+    margin-left: 20px;
+}
