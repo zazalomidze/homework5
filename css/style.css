@@ -147,3 +147,15 @@ font-weight: 700;
 line-height: 40px;
 color: #FFFFFF;
 }
+.footer_nav{ 
+    margin-top: 40px;
+}
+.footer_li{
+    display: inline-block;
+}
+.footer_li_middle{
+    margin-inline: 20px;
+}
+.footer_li_last{
+    margin-left: 20px;
+}
