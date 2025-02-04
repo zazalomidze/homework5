@@ -3,20 +3,51 @@ header {
     width: 1440px;
     background-color: #2A9D8F;
     margin: auto;
-    padding: 38px 1200px 38px 130px;
+    padding: 38px 0 38px 130px;
 }
 
 .logo_link {
     width: 46px;
     height: 46px;
-
+    display: inline-block;
+    vertical-align: middle;
 }
-.logo{
+
+.logo {
     width: 100%;
     height: 100%;
-
-
 }
-.header_nav{
+
+.header_nav {
     display: inline-block;
+    margin-left: 700px;
+    vertical-align: middle;
+}
+
+.header_li {
+    display: inline-block;
+}
+
+.header_li_a {
+    font-family: Nerko One;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header_li_middle {
+    margin-inline: 80px;
+}
+
+/* section */
+.main_section {
+    width: 1440px;
+    height: 640px;
+    background-color: #D4F3F0;
+    margin: auto;
 }
